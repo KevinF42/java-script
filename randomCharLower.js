@@ -1,5 +1,5 @@
 var randomInteger = function(val) {
-	var ival = Math.random()*26+65;
+	var ival = Math.random()*26+97;
 	// console.log(ival);
 	ival = Math.floor(ival);
 	return ival;
@@ -13,5 +13,4 @@ letter = String.fromCharCode(rInt);
 process.stdout.write(letter);
 //console.log(letter);
 //document.write(5+6);
-
 }
